@@ -1,7 +1,7 @@
-@media (max-width: 768px) {
+@media (max-width: 520px) {
     .site {
-        max-height: 100vh;
-        background-position: center 2em;
+        background-position: center -9em;
+        background-size: 400% auto;
     }
     .top-bar {
         opacity: 0.9;
@@ -37,18 +37,8 @@
     .top-bar {
         align-items: center;
     }
-    .section-banner {
-        padding-top: 15vh;
-        padding-bottom: 15vh;
-    }
     .section-banner h2{
-        font-size: 1.5em;
-    }
-    .section-banner p{
-        font-size: 1em;
-    }
-    .section-banner a {
-        padding: .3em .6em;
+        font-size: 2.5em;
     }
     .cards,
     #clients {
@@ -120,7 +110,7 @@
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 521px) and (max-width: 1024px) {
     .site {
         max-height: 100vh;
         background-position: center -8em;
