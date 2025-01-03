@@ -44,6 +44,16 @@
     margin-bottom: 0.2em;
 }
 
+#footer-text a {
+    text-decoration: none;
+}
+
+#dmn21 {
+    background-color:#f00;
+    color: #fff;
+    padding: .2em;
+}
+
 .footer-phone a, .footer-email a {
     padding-top: 1em;
     color: #aaa;
