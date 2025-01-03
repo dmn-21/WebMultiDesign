@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моушън Дизайн</title>
+    <link rel="stylesheet" href="css/site.css">
+    <script src="script.js"></script>
+</head>
+<body>
+        
+    <header class="site-header">
+        <div class="top-bar">
+            <a href="index.html">
+                <div class="first-nav">
+                    <h3 class="name">Ралица Златева</h3>
+                    <p class="info">мулти дизайнер</p>
+                </div>
+            </a>
+
+            <nav>
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li onclick="hideSidebar()"><a href="index.html">НАЧАЛО</a></li>
+                    <li onclick="hideSidebar()"><a href="index.html#me">ЗА МЕН</a></li>
+                    <li onclick="hideSidebar()"><a href="motion.html">РАБОТА<i class="fas fa-caret-right"></i></a></li>
+                    <li onclick="hideSidebar()"><a href="index.html#clients">КЛИЕНТИ</a></li>
+                    <li onclick="hideSidebar()"><a href="index.html#contacts">КОНТАКТИ</a></li>
+                </ul>
+            </nav>
+
+            <nav class="main-nav">
+                <ul class="content hideOnMobile">
+                    <li><a href="index.html">НАЧАЛО</a></li>
+                    <li><a href="index.html#me">ЗА МЕН</a></li>
+                    <li>
+                        <a href="motion.html">РАБОТА <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown_menu">
+                            <ul>
+                                <li><a href="graphic.html">Графичен дизайн</a></li>
+                                <li><a href="motion.html">Моушън дизайн</a></li>
+                                <li><a href="photography.html">Фотография</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="index.html#clients">КЛИЕНТИ</a></li>
+                    <li><a href="index.html#contacts">КОНТАКТИ</a></li>
+                </ul>
+            </nav>
+            <ul class="socials hideOnMobile">
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a href="https://x.com" target="blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="tel:+359877088773"><i class="fa-solid fa-phone"></i></a></li>                    
+            </ul>
+            <span class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#fff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></span>
+        </div>
+    </header>
+
+    <div class="carousel" id="pausePlay">
+        <div class="list">
+            <div class="item">
+                <video controls width="640" height="360">
+                    <source src="video/ТВ КЛИП 3.mp4" type="video/mp4">
+                    Вашият браузър не поддържа видеоплейър. Моля, изтеглете видеото: 
+                    <a href="video.mp4">Изтегли видео</a>.
+                </video>
+                <div class="content">
+                    <div class="text">
+                        <div class="title">Моушън дизайн</div>
+                        <div class="topic">„Технологии: Adobe After Effects.“</div>
+                        <div class="des">Анимирани видеа за социални мрежи и телевизии, които да привлекат внимание.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <video controls width="640" height="360">
+                    <source src="video/ТВ КЛИП 1.mp4" type="video/mp4">
+                    Вашият браузър не поддържа видеоплейър. Моля, изтеглете видеото: 
+                    <a href="video.mp4">Изтегли видео</a>.
+                </video>
+                <div class="content">
+                    <div class="text">
+                        <div class="title">Моушън дизайн</div>
+                        <div class="topic">„Технологии: Adobe After Effects.“</div>
+                        <div class="des">Анимирани видеа за социални мрежи и телевизии, които да привлекат внимание.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <video controls width="640" height="360">
+                    <source src="video/ТВ КЛИП 2.mp4" type="video/mp4">
+                    Вашият браузър не поддържа видеоплейър. Моля, изтеглете видеото: 
+                    <a href="video.mp4">Изтегли видео</a>.
+                </video>
+                <div class="content">
+                    <div class="text">
+                        <div class="title">Моушън дизайн</div>
+                        <div class="topic">„Технологии: Adobe After Effects.“</div>
+                        <div class="des">Анимирани видеа за социални мрежи и телевизии, които да привлекат внимание.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <video controls width="640" height="360">
+                    <source src="video/ТВ КЛИП 4.mp4" type="video/mp4">
+                    Вашият браузър не поддържа видеоплейър. Моля, изтеглете видеото: 
+                    <a href="video.mp4">Изтегли видео</a>.
+                </video>
+                <div class="content">
+                    <div class="text">
+                        <div class="title">Моушън дизайн</div>
+                        <div class="topic">„Технологии: Adobe After Effects.“</div>
+                        <div class="des">Анимирани видеа за социални мрежи и телевизии, които да привлекат внимание.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <video controls width="640" height="360">
+                    <source src="video/ТВ КЛИП 5.mp4" type="video/mp4">
+                    Вашият браузър не поддържа видеоплейър. Моля, изтеглете видеото: 
+                    <a href="video.mp4">Изтегли видео</a>.
+                </video>
+                <div class="content">
+                    <div class="text">
+                        <div class="title">Моушън дизайн</div>
+                        <div class="topic">„Технологии: Adobe After Effects.“</div>
+                        <div class="des">Анимирани видеа за социални мрежи и телевизии, които да привлекат внимание.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <video controls width="640" height="360">
+                    <source src="video/ТВ КЛИП 6.mp4" type="video/mp4">
+                    Вашият браузър не поддържа видеоплейър. Моля, изтеглете видеото: 
+                    <a href="video.mp4">Изтегли видео</a>.
+                </video>
+                <div class="content">
+                    <div class="text">
+                        <div class="title">Моушън дизайн</div>
+                        <div class="topic">„Технологии: Adobe After Effects.“</div>
+                        <div class="des">Анимирани видеа за социални мрежи и телевизии, които да привлекат внимание.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button id="prev"><i class="fas fa-arrow-left"></i></button>
+            <button id="next"><i class="fas fa-arrow-right"></i></button>
+        </div>
+        <div class="time"></div>
+
+    </div>
+
+    <footer class="site-footer w-footer">
+        <section class="footer-section">
+        <div class="footer-phone">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+359894953156">+359 (0) 894 953 156</a>
+        </div>
+        <ul class="footer-socials">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://x.com" target="blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+        <div class="footer-email">
+            <i class="fa-solid fa-envelope"></i>
+            <a  href="mailto:ralitsa.i.zlateva@gmail.com?subject=Hello%20Ralitsa" target="_blank">ralitsa.i.zlateva@gmail.com</a>
+        </div>
+        </section>
+        <p id="footer-text">Ralitsa Zlateva &copy; All Rights Reserved <span id="year"></span></p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+body {
+    background: #000;
+}
+
+.site {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: url(../images/black.jpg);
+    background-size: 110% auto;
+    background-position: center -12em;
+    background-repeat: no-repeat;
+}
+
+.site-footer {
+    margin-top: auto;
+}
