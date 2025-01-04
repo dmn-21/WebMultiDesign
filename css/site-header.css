@@ -1,0 +1,162 @@
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav li,
+.main-nav a,
+.dropdown_menu ul {
+    display: block;
+}
+
+.main-nav li {
+    margin-right: 2em;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.top-bar {  
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    position: fixed;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: 4em;
+}
+
+.content {
+    gap: 2em;
+    padding-top: 1em;
+    padding-left: 3em;
+}
+
+.socials {
+    display: flex;
+    gap: 2em;
+    padding-top: 1em;
+}
+
+.socials li,
+.socials a {
+    display: block;
+}
+
+.socials li {
+    padding: 0 0.5em;
+}
+
+.socials li a {
+    color: #fff;
+}
+
+.socials li a:hover,
+.content li a:hover {
+    color: #aaa;
+}
+
+.first-nav {
+    text-align: center;
+    letter-spacing: 0.3em;
+}
+
+.name {
+    margin: 0;
+    font-weight: 400;
+}
+
+.top-bar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content li:hover {
+    font-size: 1.2em;
+}
+
+.socials li:hover {
+    font-size: 1.5em;
+}
+
+.dropdown_menu {
+    display: none;
+}
+
+.main-nav ul li:hover .dropdown_menu {
+    border-radius: 5%;
+    display: block;
+    position: absolute;
+    background-color: #000;
+}
+
+.main-nav ul {
+    padding-bottom: 0;
+}
+
+.dropdown_menu ul li {
+    width: 150px;
+    padding: 10px;
+    margin: 0;
+}
+
+.dropdown_menu ul li a {
+    font-size: bold;
+    text-align: center;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar li {
+    width: 100%;
+    height: 50px;
+} 
+.sidebar svg {
+    padding-top: 1em;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.sidebar a{
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.sidebar a:hover {
+    background-color: #f0f0f0;
+}
+
+.menu-button {
+    display: none;
+}
+
+.info {
+    padding: 0;
+}
