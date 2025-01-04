@@ -36,6 +36,10 @@
     padding-left: 3em;
 }
 
+.content a {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .8);
+}
+
 .socials {
     display: flex;
     gap: 2em;
@@ -45,6 +49,7 @@
 .socials li,
 .socials a {
     display: block;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .8);
 }
 
 .socials li {
@@ -68,6 +73,7 @@
 .name {
     margin: 0;
     font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .8);
 }
 
 .top-bar a {
@@ -159,4 +165,5 @@
 
 .info {
     padding: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .8);
 }
