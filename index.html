@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" type="x-icon" href="img_loga/srd.png">
+    <link rel="shortcut icon" type="x-icon" href="img_loga/srd1.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ralitsa Zlateva | Ралица Златева</title>
     <link rel="stylesheet" href="css/site.css">
@@ -35,7 +35,7 @@
                         <li onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
                         <li onclick="hideSidebar()"><a href="index.html">НАЧАЛО</a></li>
                         <li onclick="hideSidebar()"><a href="index.html#me">ЗА МЕН</a></li>
-                        <li onclick="hideSidebar()"><a href="index.html#motion">РАБОТА</a></li>
+                        <li onclick="hideSidebar()"><a href="index.html#all-works">РАБОТА</a></li>
                         <li onclick="hideSidebar()"><a href="index.html#clients">КЛИЕНТИ</a></li>
                         <li onclick="hideSidebar()"><a href="index.html#contacts">КОНТАКТИ</a></li>
                     </ul>
@@ -66,14 +66,16 @@
                     <li><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
                     <li><a href="tel:+359877088773"><i class="fa-solid fa-phone"></i></a></li>                    
                 </ul>
-                <span class="menu-button" onclick="showSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#fff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></span>
+                <span class="menu-button" onclick="showSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 -960 960 960" width="36" fill="#fff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></span>
             </div>
         </header>
         
         <section class="section-banner" id="multi">
             <h2>МУЛТИ ДИЗАЙН</h2>
-            <p>Фотография</p>
             <span><a href="#contacts">КОНТАКТИ</a></span>
+            <p id="first">моушън дизайн</p>
+            <p id="second">графичен дизайн</p>
+            <p id="third">фотография</p>
         </section>
 
         <section class="cards" id='me'>
@@ -86,7 +88,17 @@
             </div>
         </section>
 
-        <section class="work" id="motion">
+        <section class="work" id="all-works">
+            <h2>Работа</h2>
+            <div class="filter">
+                <a href="#motion" data-category="all">ВСИЧКО</a><pre> / </pre>
+                <a href="#graphic" data-category="graphic">ГРАФИЧЕН ДИЗАЙН</a><pre> / </pre>
+                <a href="#motion" data-category="motion">МОУШЪН ДИЗАЙН</a><pre> / </pre>
+                <a href="#photography" data-category="photography">ФОТОГРАФИЯ</a>
+            </div>
+        </section>
+
+        <section class="work work-section" id="motion">
             <h2>Моушън Дизайн</h2>
             <div class="item">
                 <video controls width="640" height="360">
@@ -130,11 +142,13 @@
                     <a href="video.mp4">Изтегли видео</a>.
                 </video>
             </div>
-            <h4>Технологии: Adobe After Effects.</h4>
-            <p>Анимирани видеа за социални мрежи и телевизии, които да привлекат внимание.</p>
+            <div class="ccc">
+                <h4>Технологии: Adobe After Effects.</h4>
+                <p>Анимирани видеа за социални мрежи и телевизии, които да привлекат внимание.</p>
+            </div>
         </section>
 
-        <section class="work">
+        <section class="work work-section" id="graphic">
             <h2>Графичен Дизайн</h2>
             <div class="item">
                 <img src="img_graphic/banner_izlogba.jpg" alt="">
@@ -177,7 +191,7 @@
             
         </section>
 
-        <section class="work">
+        <section class="work work-section" id="photography">
             <h2>Фотография</h2>
             <div class="item">
                 <img src="img_photography/25.jpg" alt="">
@@ -293,7 +307,8 @@
                 <li class="logo hidden"><a href=""><span class="media"><img src="img_loga/kutochvp-logo.png"></span></li></a>
                 <li class="logo hidden"><a href=""><span class="media"><img src="img_loga/srd.png"></span></li></a>
                 <li class="logo hidden"><a href=""><span class="media"><img src="img_loga/multi_service_yellow.png"></span></li></a>
-                <li class="logo hidden"><a href=""><span class="media"><img id="dani" src="img_loga/dani.png"></span></li></a>
+                <li class="logo hidden"><a href=""><span class="media"><img src="img_loga/DMN21.png"></span></li></a>
+                <li class="logo hidden"><a href=""><span class="media"><img src="img_loga/dsb.png"></span></li></a>
                 <li class="logo hidden"><a href=""><span class="media"><img src="img_loga/alfa.png"></span></li></a>
                 <li class="logo hidden"><a href=""><span class="media"><img src="img_loga/td.png"></span></li></a>
                 <li class="logo hidden"><a href=""><span class="media"><img src="img_loga/temax.png"></span></li></a>
