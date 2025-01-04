@@ -160,3 +160,32 @@ function checkScreenWidth() {
 
 window.addEventListener('load', checkScreenWidth);
 window.addEventListener('resize', checkScreenWidth);
+
+document.addEventListener('DOMContentLoaded', () => {
+    const links = document.querySelectorAll('.filter a');
+    const sections = document.querySelectorAll('.work-section');
+
+    links.forEach(link => {
+        link.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            const category = link.getAttribute('data-category');
+            links.forEach(l => l.classList.remove('active'));
+            link.classList.add('active');
+
+            if (category === 'all') {
+                sections.forEach(section => {
+                    section.classList.remove('hidden');
+                });
+            } else {
+                sections.forEach(section => {
+                    if (section.id === category) {
+                        section.classList.remove('hidden');
+                    } else {
+                        section.classList.add('hidden');
+                    }
+                });
+            }
+        });
+    });
+});
